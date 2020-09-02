@@ -69,6 +69,7 @@ header {
 
 .key {
     width: 50%;
+    transition: .5s;
 }
 
 .buy  {
@@ -99,4 +100,39 @@ footer {
     background: rgb(6,6,6);
     padding: 2%;
     color:white
+}
+
+.key:hover {
+    transform: scale(1.25);
+}
+
+@media(max-width: 478px) {
+    .store{
+        height: 70%;
+    }
+
+    footer {
+        padding: 5%;
+    }
+
+    .icon img{
+        width: 70%;
+        margin-top: 2%;
+    }
+
+    header {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:1024px) {
+    .store{
+        height: 60%;
+    }
+
+    footer {
+        padding: 5%;
+    }
 }
